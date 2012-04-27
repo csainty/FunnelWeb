@@ -17,13 +17,7 @@
     <Revision>0</Revision>
   </PropertyGroup>
 
-  <Target Name="Version">
-    <HgVersion LocalPath=".">
-      <Output TaskParameter="Revision" PropertyName="Revision" />
-    </HgVersion>
-  </Target>
-
-  <Target Name="Build" DependsOnTargets="Version">
+  <Target Name="Build">
     <!-- Diagnostics -->
     <Message Text="Diagnostics:"/>
     <Message Text="Build Number:    $(Major).$(Minor).$(Build).$(Revision)" />
