@@ -27,6 +27,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <JSLintSkip>\Scripts\taggy.js|\Scripts\site.js|\Scripts\showdown.js|\Scripts\prettify.js|\Scripts\jsdate.js|\Scripts\jquery.validate.min.js|\Scripts\jquery.validate.js|\Scripts\jquery.validate-vsdoc.js|\Scripts\jquery-ui-1.8.19.min.js|\Scripts\jquery-ui-1.8.19.js|\Scripts\jquery-1.7.2.min.js|\Scripts\jquery-1.7.2.js|\Scripts\jquery-1.7.2.intellisense.js|\Scripts\wmd.js|\Scripts\disqus-count.js|\Content\Resources\Status.html</JSLintSkip>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
