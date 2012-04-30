@@ -135,6 +135,7 @@
     <Compile Include="Filters\FunnelWebRequestAttribute.cs" />
     <Compile Include="FunnelWebExtensionAttribute.cs" />
     <Compile Include="FunnelWebExtensionLoadException.asax.cs" />
+    <Compile Include="Settings\AppHarborBootstrapSettings.cs" />
     <Compile Include="Utilities\StringExtensions.cs" />
     <Compile Include="Settings\AppHarborSettings.cs" />
     <Compile Include="Settings\IAppHarborSettings.cs" />

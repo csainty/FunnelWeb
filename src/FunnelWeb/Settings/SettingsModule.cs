@@ -21,7 +21,7 @@ namespace FunnelWeb.Settings
                 .As<IConnectionStringProvider>()
                 .SingleInstance();
 
-            builder.Register(c => new XmlBootstrapSettings(bootstrapSettingsFilePath))
+            builder.RegisterType<AppHarborBootstrapSettings>()
                 .As<IBootstrapSettings>()
                 .SingleInstance();
 
